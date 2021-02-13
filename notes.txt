@@ -1,0 +1,6 @@
+hlepful links for icp 4 
+
+http://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html#pyspark.sql.GroupedData.sum
+https://koalas.readthedocs.io/en/latest/reference/api/databricks.koalas.DataFrame.html
+https://spark.apache.org/docs/latest/api/python/pyspark.sql.html
+
