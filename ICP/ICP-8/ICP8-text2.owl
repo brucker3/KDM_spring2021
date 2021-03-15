@@ -13,6 +13,75 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#are -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#are">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#calculations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#calculations">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#is_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#is_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#of_system_is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#of_system_is">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#solve -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#solve">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#objects"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#subjects"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -29,14 +98,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#are -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#are">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#bedrock_calculations -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#bedrock_calculations">
@@ -49,22 +110,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#bedrock_calculations_in_math">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#objects"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#calculations_in -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#calculations_in">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#is_in -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#is_in">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
     </owl:Class>
     
 
@@ -107,32 +152,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#of_systems_is -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#of_systems_is">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
-    
-
-
     <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#right_kind -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#right_kind">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#subjects"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#solve -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#solve">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-13#predicates"/>
     </owl:Class>
     
 

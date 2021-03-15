@@ -13,6 +13,59 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#annouced_at_time -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#annouced_at_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#be_disllusioned_twentysomething_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#be_disllusioned_twentysomething_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#developing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#developing">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#predicates"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Subjects"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Objects"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#predicates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#predicates"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -51,38 +104,21 @@
     
 
 
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Predicates -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Predicates"/>
-    
-
-
     <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Subjects -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Subjects"/>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#announced_at_time -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#announced_at_time">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Predicates"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#be_disillusioned_twentysomethings_by -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#be_disillusioned_twentysomethings_by">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Predicates"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#developing -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#developing">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Predicates"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Subjects">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#be_disllusioned_twentysomething_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#CW"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-11#Objects"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 

@@ -13,6 +13,75 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#according -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#according">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#dealing_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#dealing_with">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing_MRI_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing_MRI_on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -61,14 +130,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#according -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#according">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#bone_bruise -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#bone_bruise">
@@ -77,26 +138,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#dealing_with -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#dealing_with">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#drian_Wojnarowski -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#drian_Wojnarowski">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#has -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#has">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
     </owl:Class>
     
 
@@ -115,31 +160,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
-    
-
-
     <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing_MRI_on -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing_MRI_on">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
-    </owl:Class>
     
 
 
