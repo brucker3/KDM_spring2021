@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#ESPN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#ESPN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#He -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#He">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#MRI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#MRI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Philadelphia_76ers_center_Joel_Embiid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Philadelphia_76ers_center_Joel_Embiid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Saturday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Saturday">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#according -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#according">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#bone_bruise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#bone_bruise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#dealing_with -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#dealing_with">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#drian_Wojnarowski -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#drian_Wojnarowski">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#has -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#has">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#left_knee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#left_knee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#objects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing_MRI_on -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#undergoing_MRI_on">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#predicates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Philadelphia_76ers_center_Joel_Embiid_&apos;s_knee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Philadelphia_76ers_center_Joel_Embiid_&apos;s_knee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Philadelphia_76ers_center_Joel_Embiid_&apos;s_left_knee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#Philadelphia_76ers_center_Joel_Embiid_&apos;s_left_knee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bayardrucker/ontologies/2021/2/untitled-ontology-14#subjects"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
